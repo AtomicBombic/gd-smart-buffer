@@ -26,3 +26,4 @@ jobs:
         with:
           sdk: 'v3.0.0-beta.1'
           cli: 'latest'
+          use-lto: false
