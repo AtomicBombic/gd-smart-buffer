@@ -1,16 +1,13 @@
 {
-	"geode": "5.11.2",
+	"geode": "3.0.0-beta.1",
 	"gd": {
-		"win": "2.2081",
-		"android": "2.2081",
-		"mac": "2.2081",
-		"ios": "2.2081"
+		"win": "2.204"
 	},
-	"id": "yourname.smart-buffer",
+	"id": "atomicbombic.smart-buffer",
 	"name": "Smart Buffer",
 	"version": "v1.0.0",
-	"developer": "yourname",
-	"description": "Click up to 16 ticks early and the click is re-fired on the exact tick it becomes useful (landing, touching an orb). Normal clicks still go through instantly.",
+	"developer": "AtomicBombic",
+	"description": "Click up to 16 ticks early and the click is re-fired on the exact tick it becomes useful.",
 	"settings": {
 		"enabled": {
 			"type": "bool",
@@ -21,7 +18,7 @@
 		"window": {
 			"type": "string",
 			"name": "Buffer Window (ticks)",
-			"description": "How many physics ticks early you can click and still have it register on the frame-perfect tick. 'Off' disables buffering.",
+			"description": "How many physics ticks early you can click.",
 			"default": "4",
 			"one-of": ["Off", "2", "4", "6", "8", "10", "12", "14", "16"]
 		}
