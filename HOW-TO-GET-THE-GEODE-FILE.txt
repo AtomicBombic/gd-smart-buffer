@@ -1,0 +1,9 @@
+1. Make a free account at github.com and create a NEW repository (any name).
+2. Click "uploading an existing file" and drag in EVERYTHING from this folder
+   (CMakeLists.txt, mod.json, README.md, src folder, and the .github folder).
+   If the .github folder won't upload: Add file > Create new file, type
+   .github/workflows/build.yml as the name, and paste in the contents of that file.
+3. Commit. Then open the "Actions" tab and wait for "Build Binaries" to finish (about 5-10 min).
+4. Open the finished run, download "Build Output" at the bottom, and unzip it.
+5. Inside is a .geode file. Double-click it (or drop it into Geometry Dash/geode/mods/)
+   and restart the game. It appears in Geode > Mods.
