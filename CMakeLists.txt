@@ -16,4 +16,7 @@ endif()
 
 add_subdirectory($ENV{GEODE_SDK} ${CMAKE_CURRENT_BINARY_DIR}/geode)
 
+# Rettelsen skal stå lige HER (før setup_geode_mod)
+set(TULIPHOOK_VERSION v3.1.2)
+
 setup_geode_mod(${PROJECT_NAME})
